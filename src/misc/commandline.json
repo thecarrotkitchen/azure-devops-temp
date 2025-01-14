@@ -1,0 +1,51 @@
+{
+    "AppSettings": 
+    {
+        "userPAT": "7upPo4CiePi3e4lbAW4u6YKCNEzbXZ2AyBlhBth1X8KRBmNPm3YDJQQJ99BAACAAAAAAArohAAASAZDOApCg",
+        "jsonDefaultLocation": "src/msc"
+    },
+    "build": [
+      {
+        "branch-name": "MAS_Prod",
+        "buildURL": "https://msazure.visualstudio.com/One/_apis/pipelines/364064/runs?api-version=6.0-preview.1",
+        "Build-type": "build",
+        "enabled": true
+      },
+      {
+        "branch-name": "MAS_HotFix",
+        "buildURL": "https://msazure.visualstudio.com/One/_apis/pipelines/364065/runs?api-version=6.0-preview.1",
+        "Build-type": "build",
+        "enabled": true
+      },
+      {
+        "branch-name": "AsZ",
+        "buildURL": "https://msazure.visualstudio.com/One/_apis/pipelines/243404/runs?api-version=6.0-preview.1",
+        "Build-type": "build",
+        "enabled": true
+      },
+      {
+        "branch-name": "ArcA",
+        "buildURL": "https://msazure.visualstudio.com/One/_apis/pipelines/284602/runs?api-version=6.0-preview.1",
+        "Build-type": "non-build",
+        "enabled": false
+      },
+      {
+        "branch-name": "MAS_TeamCI",
+        "buildURL": "https://msazure.visualstudio.com/One/_apis/pipelines/148931/runs?api-version=6.0-preview.1",
+        "Build-type": "build",
+        "enabled": false
+      },
+      {
+        "branch-name": "AsZ-vNext",
+        "buildURL": "https://msazure.visualstudio.com/One/_apis/pipelines/307537/runs?api-version=6.0-preview.1",
+        "Build-type": "non-build",
+        "enabled": false
+      },
+      {
+        "branch-name": "1PASZJobs",
+        "buildURL": "https://msazure.visualstudio.com/One/_apis/pipelines/305796/runs?api-version=6.0-preview.1",
+        "Build-type": "non-build",
+        "enabled": false
+      }
+    ]
+}
