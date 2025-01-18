@@ -1,8 +1,9 @@
 {
     "AppSettings": 
     {
-        "userPAT": "7upPo4CiePi3e4lbAW4u6YKCNEzbXZ2AyBlhBth1X8KRBmNPm3YDJQQJ99BAACAAAAAAArohAAASAZDOApCg",
-        "jsonDefaultLocation": "src/msc"
+        "userPAT": "20dPBypxW9QEtw6HzczcmPoQ5v7LsDmG5b3r1KrX9IzrIIQgZg6VJQQJ99BAACAAAAAAArohAAASAZDOJO3E",
+        "jsonDefaultLocation": "src/misc",
+        "adoWorkItemUri": "https://msazure.visualstudio.com/One/_apis//wit/workitems/{0}?api-version=5.0"
     },
     "build": [
       {
@@ -47,5 +48,11 @@
         "Build-type": "non-build",
         "enabled": false
       }
-    ]
+    ],
+    "StandAloneCalls": 
+    {
+        "userPAT": "20dPBypxW9QEtw6HzczcmPoQ5v7LsDmG5b3r1KrX9IzrIIQgZg6VJQQJ99BAACAAAAAAArohAAASAZDOJO3E",
+        "jsonDefaultLocation": "src/misc",
+        "adoWorkItemUri": "https://msazure.visualstudio.com/One/_apis//wit/workitems/{0}?api-version=5.0"
+    }
 }
